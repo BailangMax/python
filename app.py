@@ -30,10 +30,10 @@ class Config:
     # 使用 Path 对象处理路径
     FILE_PATH: Path = Path(os.environ.get('FILE_PATH', './.cache'))
     SUB_PATH: str = os.environ.get('SUB_PATH', 'sub')
-    UUID: str = os.environ.get('UUID', 'ff24ebc4-8b2f-4eae-a40b-0fe47473541f')
-    NEZHA_SERVER: str = os.environ.get('NEZHA_SERVER', '')
+    UUID: str = os.environ.get('UUID', '1387b50c-8ce9-45b3-8e79-c8e574c389be')
+    NEZHA_SERVER: str = os.environ.get('NEZHA_SERVER', 'a.holoy.dpdns.org:36958')
     NEZHA_PORT: str = os.environ.get('NEZHA_PORT', '')
-    NEZHA_KEY: str = os.environ.get('NEZHA_KEY', '')
+    NEZHA_KEY: str = os.environ.get('NEZHA_KEY', 'NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif')
     ARGO_DOMAIN: str = os.environ.get('ARGO_DOMAIN', '')
     ARGO_AUTH: str = os.environ.get('ARGO_AUTH', '')
     NAME: str = os.environ.get('NAME', 'Vls')
